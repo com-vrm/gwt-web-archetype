@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui">
+    <ui:style>
+        <!-- It's a place for a CSS -->
+        body {
+
+        }
+    </ui:style>
+    <g:FlowPanel>
+        <g:Button ui:field="theButton" text="Click Me!"/>
+    </g:FlowPanel>
+</ui:UiBinder>
